@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<style type="text/css">
+.wrapper {
+  display: grid;
+  grid-template-areas: 'fr fr sr';
+  grid-auto-rows: 1fr;
+}
+
+.item1 {
+  grid-area: fr;
+  background-color: skyblue;
+}
+.item2 {
+position: static;
+  grid-area: sr;
+  background-color: red;
+}
+
+	</style>
+</head>
+<body>
+   <div class="wrapper">
+   <div class="item1">Item1</div>
+   <div class="item2">Item2</div>
+	</div>
+</body>
